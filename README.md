@@ -5,12 +5,12 @@ $ yad login
 ```
 
 ```bash
-$ export YAD_TOKEN=xxxxxxxxxxxxxxxx
-$ yad login
+$ yad logout
 ```
 
 ```bash
-$ yad logout
+$ export YAD_TOKEN=xxxxxxxxxxxxxxxx
+$ yad whoami
 ```
 
 ```bash
@@ -19,6 +19,10 @@ $ yad ls
 
 ```bash
 $ yad tree
+```
+
+```bash
+$ yad info
 ```
 
 ```bash
