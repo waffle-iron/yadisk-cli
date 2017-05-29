@@ -30,11 +30,11 @@ $ yad info <path>
 ```
 
 ```bash
-$ yad <download|down> <remote-path> <local-path>
+$ yad <download|dl> <remote-path> <local-path>
 ```
 
 ```bash
-$ yad <upload|up> <remote-path> <local-path> [-f]
+$ yad <upload|ul> <remote-path> <local-path> [-f]
 ```
 
 ```bash
