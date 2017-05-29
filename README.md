@@ -60,3 +60,7 @@ $ yad <publish|pb> <remote-path>
 ```bash
 $ yad <unpublish|ub> <remote-path>
 ```
+
+```bash
+$ yad help
+```
