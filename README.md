@@ -22,6 +22,10 @@ $ yad tree
 ```
 
 ```bash
+$ yad status
+```
+
+```bash
 $ yad info
 ```
 
