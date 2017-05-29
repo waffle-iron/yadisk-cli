@@ -1,1 +1,58 @@
-# yadisk-cli
+Yandex Disk CLI
+
+```bash
+$ yad login
+```
+
+```bash
+$ export YAD_TOKEN=xxxxxxxxxxxxxxxx
+$ yad login
+```
+
+```bash
+$ yad logout
+```
+
+```bash
+$ yad ls
+```
+
+```bash
+$ yad tree
+```
+
+```bash
+$ yad info <path>
+```
+
+```bash
+$ yad <download|down> <remote-path> <local-path>
+```
+
+```bash
+$ yad <upload|up> <remote-path> <local-path> [-f]
+```
+
+```bash
+$ yad <mkdir|md> <remote-path>
+```
+
+```bash
+$ yad <remove|rm> <remote-path> [-f]
+```
+
+```bash
+$ yad <copy|cp> <from> <to> [-f]
+```
+
+```bash
+$ yad <move|mv> <from> <to> [-f]
+```
+
+```bash
+$ yad <publish|pb> <remote-path>
+```
+
+```bash
+$ yad <unpublish|ub> <remote-path>
+```
