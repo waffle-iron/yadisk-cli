@@ -56,15 +56,16 @@ int main(int argc, char* argv[]) {
                 Client client{ token }; 
 
                 if (command == "ls") {
-                    // TODO answer = client.info("/");
+                    url::path resource = url::path::separator;
+                    answer = client.info(resource);
                 }
                 else if (command =="status") {
                     std::cout << "server is " << (client.ping() ? "available" : "not available") << std::endl;
                 }
                 else if (command == "info") {
                     if (vm.count("resource")) {
-                        auto resource = vm["resource"].as<std::string>();
-                        // TODO answer = client.info(resource);
+                        url::path resource = vm["resource"].as<std::string>();
+                        answer = client.info(resource);
                     }
                     else {
                         answer = client.info();
