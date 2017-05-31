@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/yadisk-ops/yadisk-cli.png?label=ready&title=Ready)](https://waffle.io/yadisk-ops/yadisk-cli?utm_source=badge)
 Yandex Disk CLI
 
 ```bash
